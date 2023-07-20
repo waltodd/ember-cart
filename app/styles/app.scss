@@ -1,4 +1,8 @@
-/* Ember supports plain CSS out of the box. More info: https://cli.emberjs.com/release/advanced-use/stylesheets/ */
-body{
-    background-color: red;
+body {
+  background-color: #F5F5F5;
 }
+
+@import './homepage';
+@import './item';
+@import './cart';
+@import './product';
