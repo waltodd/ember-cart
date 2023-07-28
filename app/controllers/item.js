@@ -15,10 +15,11 @@ export default class ItemController extends Controller {
   @action
   onChangeColor(newColor) {
     this.color = newColor;
+    console.log(this.newColor);
   }
 
   @action
-  toggleZoom(){
+  toggleZoom() {
     this.isZoomed = !this.isZoomed;
   }
 }
